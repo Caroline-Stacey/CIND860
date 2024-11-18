@@ -73,6 +73,17 @@ OR
 
 [85-87] SMOTE and ENN are used to balance the data as literature has indicated that is a superior method (see: Esenogho, E., Mienye, I. D., Swart, T. G., Aruleba, K., & Obaido, G. (2022). A neural network  ensemble with feature engineering for improved credit card fraud detection. IEEE Access, 10, 16400–16407. https://doi.org/10.1109/access.2022.3148298 )
   
-5) Individual Models:
-[89] Individual Models are applied to see which provide the strongest results and will therefore be applied in ensemble learning 
-7) Ensemble Learning:
+**5) Individual Models:**
+[89] Individual Models are applied to see which provide the strongest results and will therefore be applied in ensemble learning.
+
+The individual models applied include:
+- [90] Naive Bayes
+- [96] SVC
+- [103] MLP
+- [110] Decision Tree
+- [125] KNN
+- [144] RandomForest
+
+**6) Ensemble Learning:**
+- testing Bagging and Boosting with Boosting seemingly being more effective.
+- following bagging and boosting, stacking is used.
